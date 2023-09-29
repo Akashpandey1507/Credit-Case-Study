@@ -18,8 +18,6 @@ To develop your understanding of the domain, you are advised to independently re
 
 
 
-<iframe width="560" height="315" src="https://youtu.be/IZTye5-cIcE?si=79LqFOOn4V296OvJ" title="Data Cleaning with PySpark" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 
 
 
