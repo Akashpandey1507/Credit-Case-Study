@@ -14,10 +14,6 @@ This case study aims to identify patterns which indicate if a client has difficu
 To develop your understanding of the domain, you are advised to independently research a little about risk analytics - understanding the types of variables and their significance should be enough.
 
 
-[![YouTube Video](https://img.youtube.com/vi/IZTye5-cIcE/0.jpg)](https://youtu.be/IZTye5-cIcE?si=79LqFOOn4V296OvJ)
-
-
-
 [![Click to Play Video](https://img.youtube.com/vi/IZTye5-cIcE/0.jpg)](https://youtu.be/IZTye5-cIcE?si=79LqFOOn4V296OvJ)
 
 
