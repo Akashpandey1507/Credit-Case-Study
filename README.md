@@ -19,6 +19,6 @@ To develop your understanding of the domain, you are advised to independently re
 
 
 
-
+https://github.com/Akashpandey1507/Credit-Case-Study/assets/124170332/6e0e36ed-fb1d-449e-83b6-4a85d75e34dd
 
 
