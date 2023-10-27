@@ -1,0 +1,9 @@
+{
+	"name": "credit-case-adf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ac56f079-87ef-4772-8239-10ff337e8ed1",
+		"tenantId": "6610c761-bb30-49c3-a70c-87d0fbd9b0ed"
+	}
+}
