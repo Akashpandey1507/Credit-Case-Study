@@ -5,9 +5,11 @@
 
 # COMMAND ----------
 
-# MAGIC %md
-# MAGIC
-# MAGIC Download the datasets: https://www.kaggle.com/datasets/venkatasubramanian/credit-eda-case-study
+# MAGIC %run "/Repos/akashpandey15071996@outlook.com/Credit-Case-Study/notebook/data_loading_and_duplication_copy"
+
+# COMMAND ----------
+
+# MAGIC %run "/Repos/akashpandey15071996@outlook.com/Credit-Case-Study/notebook/pyspark_class"
 
 # COMMAND ----------
 
@@ -29,49 +31,8 @@
 
 # COMMAND ----------
 
-# MAGIC %fs  ls 
-
-# COMMAND ----------
-
-# MAGIC %fs ls dbfs:/FileStore/
-
-# COMMAND ----------
-
-# File path
-file_path = "dbfs:/FileStore/tables/application_data.csv"
-
-# COMMAND ----------
-
-# Loading the original datasets
-credit_load_application_datasets = spark.read.csv(
-                                                        "dbfs:/FileStore/tables/application_data.csv", 
-                                                        header=True,
-                                                        inferSchema=True
-)
-
-# COMMAND ----------
-
-# Create the duplicate copy of original datasets in df
-df = credit_load_application_datasets.alias('copy')
-
-# COMMAND ----------
-
 # Reading the datasets
 df.display()
-
-# COMMAND ----------
-
-# MAGIC %md
-# MAGIC
-# MAGIC # Importing the important libraries for Analysis or data cleaning
-
-# COMMAND ----------
-
-# Importing the libraries
-from pyspark.sql import functions as f
-from pyspark.sql import types as t
-import matplotlib.pyplot as plt 
-import seaborn as sns
 
 # COMMAND ----------
 
@@ -575,12 +536,6 @@ df.display()
 # MAGIC %md
 # MAGIC
 # MAGIC # The Datasets has been cleaned and ready for EDA
-
-# COMMAND ----------
-
-# exporting the cleaned datasets
-
-df.write.parquet("Credit_case_cleaned_data")
 
 # COMMAND ----------
 
