@@ -5,11 +5,12 @@
 
 # COMMAND ----------
 
-# MAGIC %run "/Repos/akashpandey15071996@outlook.com/Credit-Case-Study/notebook/data_loading_and_duplication_copy"
+# MAGIC %run "/Repos/akashpandey74@outlook.com/Credit-Case-Study/notebook/Data_Ingestion"
 
 # COMMAND ----------
 
-# MAGIC %run "/Repos/akashpandey15071996@outlook.com/Credit-Case-Study/notebook/pyspark_class"
+from pyspark.sql import functions as f
+from pyspark.sql import types as t
 
 # COMMAND ----------
 
@@ -297,6 +298,8 @@ credit_col_pd = credit_col.toPandas()
 # COMMAND ----------
 
 # Visualisation of box plot on AMT_INCOME_TOTAL
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 plt.figure(figsize=(25,4))
 plt.title(" Checking the Outlier in AMT_INCOME_TOTAL columns from the datasets ")
