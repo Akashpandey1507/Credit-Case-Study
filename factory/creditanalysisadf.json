@@ -1,0 +1,9 @@
+{
+	"name": "creditanalysisadf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9afc4bdf-d890-442a-93fa-2ca448c0ba94",
+		"tenantId": "73265efb-7e0c-40ef-976c-2be03d0ee786"
+	}
+}
